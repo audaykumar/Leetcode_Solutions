@@ -1,0 +1,24 @@
+# Solutions to Leetcode Questions
+
+
+| # | Title | Solution | Difficulty | Topic |
+|---| ----- | -------- | ---------- | ----- |
+|1|[Two Sum](./Algorithms/1.%20Two%20Sum/) | [Go](./Algorithms/1.%20Two%20Sum/go/two_sum.go), [Python](./Algorithms/1.%20Two%20Sum/python/), [Java]()|Easy| Arrays & Hashing |
+|2|[Add Two Numbers](./Algorithms/2.%20Add%20Two%20Numbers/) | [Go](), [Python](), [Java]()|Easy|  |
+|3|[Longest Substring Without Repeating Characters](./Algorithms/3.%20Longest%20Substring%20Without%20Repeating%20Characters/) | [Go](), [Python](), [Java]()|Easy|  |
+|4|[Median of Two Sorted Arrays](./Algorithms/4.%20Median%20of%20Two%20Sorted%20Arrays/) | [Go](), [Python](), [Java]()|Easy|  |
+|5|[Longest Palindromic Substring](./Algorithms/5.%20Longest%20Palindromic%20Substring/) | [Go](), [Python](), [Java]()|Easy|  |
+|11|[Container With Most Water](./Algorithms/11.%20Container%20With%20Most%20Water/) | [Go](), [Python](), [Java]()|Easy|  |
+|15|[3Sum](./Algorithms/15.%203Sum/) | [Go](), [Python](), [Java]()|Easy|  |
+|20|[Valid Parentheses](./Algorithms/20.%20Valid%20Parentheses/) | [Go](), [Python](), [Java]()|Easy|  |
+|24|[Swap Nodes in Pairs](./Algorithms/24.%20Swap%20Nodes%20in%20Pairs/) | [Go](), [Python](), [Java]()|Easy|  |
+|39|[Combination Sum](./Algorithms/39.%20Combination%20Sum/) | [Go](), [Python](), [Java]()|Easy|  |
+|125|[Valid Palindrome](./Algorithms/125.%20Valid%20Palindrome/) | [Go](), [Python](), [Java]()|Easy|  |
+|152|[Maximum Product Subarray](./Algorithms/152.%20Maximum%20Product%20Subarray/) | [Go](), [Python](), [Java]()|Easy|  |
+|207|[Course Schedule](./Algorithms/207.%20Course%20Schedule/) | [Go](), [Python](), [Java]()|Easy|  |
+|217|[Contains Duplicate](./Algorithms/217.%20Contains%20Duplicate/) | [Go](), [Python](), [Java]()|Easy|  |
+|779|[K-th Symbol in Grammar](./Algorithms/779.%20K-th%20Symbol%20in%20Grammar/README.md) | [Go](), [Python](), [Java]()|Easy|  |
+|1209|[Remove All Adjacent Duplicates in String II](./Algorithms/1209.%20Remove%20All%20Adjacent%20Duplicates%20in%20String%20II/) | [Go](), [Python](), [Java]()|Easy|  |
+|1647|[Minimum Deletions Make Character Frequencies Unique](./Algorithms/1647.%20Minimum%20Deletions%20Make%20Character%20Frequencies%20Unique/) | [Go](), [Python](), [Java]()|Easy|  |
+
+
