@@ -8,10 +8,16 @@ class Solution:
                 # map.pop(c)
                 map[c][0] += 1
         
+        val = -1
         for k, v in map.items():
             if v[0] == 1:
-                return v[1]
-        return -1
+                if val != -1:
+                    val = min(val, v[1])
+                else:
+                    val = v[1]
+                
+                
+        return val
         
     
 sol = Solution()
