@@ -2,7 +2,7 @@ class Solution:
     def longestPalindrome(self, s: str) -> str:
         res_len = 0
         for i in range(len(s)):
-            print(i)
+            # print(i)
             odd_check = self.check(s,i,i)
             
             even_check = self.check(s,i,i+1)
@@ -22,16 +22,18 @@ class Solution:
         while lower >= 0 and upper < len(s) and s[lower] == s[upper]:
             lower-=1
             upper+=1
-            print("current str: ", s[lower+1:upper])
-            print("lower: ", lower)
-            print("upper: ", upper)
+            # print("current str: ", s[lower+1:upper])
+            # print("lower: ", lower)
+            # print("upper: ", upper)
             
-        print("return str: ", s[lower+1:upper])
+        # print("return str: ", s[lower+1:upper])
         return s[lower+1:upper]
 
 sol = Solution()
 
 test1 = "babad"
 test2 = "cbbd"
+
+print(sol.longestPalindrome(test1))
 
 print(sol.longestPalindrome(test2))

@@ -13,14 +13,17 @@ func main() {
 }
 
 func containsDuplicate(nums []int) bool {
-	mymap := make(map[int]int)
-
-	for _, n := range nums {
-		mymap[n]++
-		if mymap[n] > 1 {
-			return true
-		}
+	if len(nums) <= 1 {
+		return false
 	}
 
+	numMap := make(map[int]struct{})
+
+	for _, num := range nums {
+		if _, ok := numMap[num]; ok {
+			return true
+		}
+		numMap[num] = struct{}{}
+	}
 	return false
 }
